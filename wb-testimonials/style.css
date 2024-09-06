@@ -1,0 +1,89 @@
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: #ecf2f8;
+  margin: 0;
+  padding: 40px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 350px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.avatar {
+  width: 70px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  object-fit: cover;
+}
+
+.purple {
+  background-color: #7541c8;
+  color: #ffffff;
+}
+
+.dark-blue {
+  background-color: #48556a;
+  color: #ffffff;
+}
+
+.white {
+  background-color: #ffffff;
+  color: #48556a;
+}
+
+.dark {
+  background-color: #19212e;
+  color: #ffffff;
+}
+
+h4 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 80px; 
+}
+
+.verified {
+  display: block;
+  font-size: 13px;
+  color: #cfcfcf;
+  margin-top: 5px;
+}
+
+.quote {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.details {
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 15px;
+  line-height: 1.7;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
